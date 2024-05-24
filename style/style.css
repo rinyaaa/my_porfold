@@ -7,73 +7,117 @@ body {
 }
 
 header {
+    width: 100%;
+    margin: 0 auto;
     background: whitesmoke;
     color: black;
-    padding:1em 0;
-    padding-bottom:0.00835px;
-    text-align: center;    
-}
-h1{
+    padding: 1em 0;
+    padding-bottom: 0.00835px;
     text-align: center;
 }
-#projects .project {
-    margin-bottom: 2rem;
-}
 
-footer {
-    background: #333;
-    color: #fff;
+h1 {
     text-align: center;
-    padding: 1rem 0;
-    bottom: 0;
-    width: 100%;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
 
-form label {
-    margin-top: 1rem;
-}
-
-form input, form textarea {
-    padding: 0.5rem;
-    margin-top: 0.5rem;
-}
-
-form button {
-    margin-top: 1rem;
-    padding: 0.5rem;
-    background: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-form button:hover {
-    background: #555;
-}
-
-#projects{
+/*自己紹介*/
+#projects {
     margin-top: 20px;
 }
-#about h2{
+
+#about h2 {
     text-align: center;
 }
-#about{
-    width:58%;
-    margin:0 auto;
-    background-color: whitesmoke;
-    text-align: end;
+
+#about {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
     margin-bottom: 1px;
     padding-bottom: 1px;
-    
+    margin-top: 5em;
 }
-.sya img{
-    width: 100px;
-    height: 100px;
-    position:absolute;top:240px;
-    position:absolute;left:200px;
+
+.sya img {
+    width: 130px;
+    height: 160px;
+    position: absolute;
+    top: 288px;
+    position: absolute;
+    left: 580px;
+}
+
+@media screen and (max-width:1490px) {
+    .sya img {
+        width: 100px;
+        height: 130px;
+        position: absolute;
+        top: 310px;
+        position: absolute;
+        left: 400px;
+    }
+
+    .tec {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-top: 30px;
+        padding: 10px 60px;
+        flex-wrap: wrap
+    }
+
+    .tec li {
+        display: inline;
+        padding-bottom: 1px;
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+/*使用したことがる*/
+#projects h2 {
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+#projects {
+    background-color: whitesmoke;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px; /*自己紹介とできることの間*/
+
+}
+
+.yok {
+    display: flex;
+}
+
+@media screen and (min-width:1491px) {
+
+    .tec {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-top: 50px;
+        padding: 10px 100px;
+        flex-wrap: wrap
+    }
+
+    .tec li {
+        display: inline;
+        padding-bottom: 1px;
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
 }
