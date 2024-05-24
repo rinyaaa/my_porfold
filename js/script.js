@@ -1,9 +1,5 @@
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
 
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
+//ziko-txtに入力する文字
+const userInput ="こんにちは!始めまして。石丸凜弥と申します 。\n2005年7月18日生まれ長崎出身です。 　　　　　\n愛知工業大学の情報学生です。　 　　 　　　　\n高校も情報でしたがコードは全然書けないです。\nこれから頑張るのでよろしくお願いします　　　"
 
-    alert(`名前: ${name}\nメールアドレス: ${email}\nメッセージ: ${message}`);
-});
+document.getElementById('user-text').innerText = userInput;

@@ -59,3 +59,20 @@ form button:hover {
 #projects{
     margin-top: 20px;
 }
+#about h2{
+    text-align: center;
+}
+#about{
+    width:58%;
+    margin:0 auto;
+    background-color: whitesmoke;
+    text-align: end;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+.sya img{
+    width: 100px;
+    height: 100px;
+    position:absolute;top:240px;
+    position:absolute;left:200px;
+}
