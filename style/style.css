@@ -10,7 +10,8 @@ header {
     background: whitesmoke;
     color: black;
     padding:1em 0;
-    padding-bottom:0.00835px;    
+    padding-bottom:0.00835px;
+    text-align: center;    
 }
 h1{
     text-align: center;
