@@ -1,18 +1,20 @@
+nav{
+  width: auto;
+}
 nav ul {
     list-style: none;
     padding: 0;
 }
 
+
 nav ul li {
     display: inline;
     margin: 0 1rem;
     list-style: none;
+    padding-bottom: 1px;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
+
 
 
 /*==================================================
@@ -21,15 +23,19 @@ nav ul li a {
 .gnavi{
     display: flex;
     flex-wrap: wrap;/*スマホ表示折り返し用なのでPCのみなら不要*/
-    margin:0 0 50px 0;
+    margin:0 0 30px 0;
     list-style: none;
+
 }
 
 .gnavi li a{
     display: block;
-    padding:10px 30px;
+    padding:10px 20px;
     text-decoration: none;
-    color: white;
+    text-align: center;
+    color:black;
+    font-size: 1em;
+    text-align: center;
 }
 
 /*==================================================
