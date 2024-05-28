@@ -78,6 +78,26 @@ h1 {
         padding: 20px;
         text-align: center;
     }
+    .lic {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-top: 5px;
+        padding: 10px 60px;
+        flex-wrap: wrap
+    }
+
+    .lic li{
+        display: inline;
+        padding-bottom: 1px;
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+        margin-left: 20px;
+    }
 }
 
 /*使用したことがる*/
@@ -116,9 +136,9 @@ h1 {
         padding: 0;
         margin: 0;
         list-style: none;
-        
         padding: 10px 100px;
-        flex-wrap: wrap
+        flex-wrap: wrap;
+        margin-left: 20px;
     }
 
     .tec li {
@@ -131,11 +151,27 @@ h1 {
         padding: 20px;
         text-align: center;
     }
-    #sikaku{
-        background-color: whitesmoke;
-        width: 60%;
-        margin: 0 auto;
-        margin-top: 100px; 
+    .lic {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        padding: 10px 100px;
+        flex-wrap: wrap;
+        margin-left: 20px;
     }
+
+    .lic li{
+        display: inline;
+        padding-bottom: 1px;
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+        margin-left: 30px;
+    }
+    
+  
 }
 
