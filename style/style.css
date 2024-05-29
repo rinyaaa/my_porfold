@@ -18,11 +18,19 @@ header {
     color: black;
     padding: 1em 0;
     padding-bottom: 0.00835px;
-    text-align: center;
+    text-align: right;
+}
+header img{
+    width: 50px;
+    
+}
+.x img{
+    width: 90px;
 }
 
 h1 {
     text-align: center;
+    margin-top: -10px;
 }
 
 
@@ -177,7 +185,14 @@ h1 {
         text-align: center;
         margin-left: 30px;
     }
-    
+    .sya img {
+        width: 270px;
+        height:215px;
+        object-fit: contain;
+        
+        margin-left: 15em;
+    }
+
   
 }
 
